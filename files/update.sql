@@ -1,3 +1,9 @@
+UPDATE properties SET type_id = CASE
+  WHEN type = 'metal' THEN 1
+  WHEN type = 'metalloid' THEN 2
+  WHEN type = 'nonmetal' THEN 3
+  END;
+
 UPDATE elements SET symbol = CASE 
   WHEN symbol ~ '^[a-z]' THEN REGEXP_REPLACE(symbol,'^[a-z]',UPPER(SUBSTRING(symbol,1,1)))
   ELSE symbol
