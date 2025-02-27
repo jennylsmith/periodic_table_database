@@ -1,0 +1,315 @@
+git rebase --onto jsmith jsmith-2
+git status
+clear
+git status
+git checkout jsmith
+cd periodic_table/
+git status
+git log --oneline
+git status
+git branch
+ls --color=auto
+cd ..
+ls --color=auto
+ls --color=auto files/
+mv periodic_table periodic_table_bak
+clear
+ls --color=auto
+mkdir periodic_table
+ls --color=auto
+cp files/element.sh files/README.md periodic_table/
+ls --color=auto
+cd periodic_table
+git config --list
+git config --list --global
+git config --global init.defaultBranch main
+git status
+ls --color=auto
+cd ..
+ls --color=auto
+ls --color=auto
+git status
+cd periodic_table
+ls --color=auto
+git status
+ls --color=auto -alh
+git remote -v
+cd ..
+ls --color=auto
+cd periodic_table_bak/
+ls --color=auto
+git status
+git remote -v
+cd ..
+ls --color=auto
+git branch
+open .gitignore
+git status
+git status
+ls --color=auto
+cd periodic_table
+ls --color=auto
+git status
+ls --color=auto
+cd ..
+ls --color=auto
+rm -rf periodic_table
+git status
+git status
+git status
+ls --color=auto
+mv periodic_table_bak/ periodic_table
+clear
+ls --color=auto
+mv files/element.sh files/README.md periodic_table
+ls --color=auto
+cd periodic_table/
+ls --color=auto
+git status
+git status
+git log --oneline
+git reset --hard d2c4762
+git status
+git log
+git log --oneline
+git branch
+git branch -d feat/query-and-join
+git branch -d feat/initial-queries
+git branch -d feat/define-filter-condition
+git branch -D feat/define-filter-condition
+clear
+ls --color=auto
+git status
+git branch
+git log
+git log --oneline
+git checkout feat/query-and-join
+git status
+git log --oneline
+git checkout main
+git status
+git merge feat/query-and-join
+git status
+git log --oneline
+./element.sh
+./element.sh H
+git status
+git checkout -b feat/print-query
+./element.sh
+./element.sh H
+./element.sh 1
+./element.sh Hydrogen
+git status
+git add element.sh
+git status
+git commit -m "feat: print query output describing atomic properties"
+git status
+git checkout main
+git merge feat/print-query
+clear
+git status
+git log --oneline
+git status
+git branch
+cd ..
+ls --color=auto
+git status
+clear
+ls --color=auto
+ls --color=auto files/
+git status
+git restore files/
+git status
+ls --color=auto files/
+__vsc_prompt_cmd_original
+ls --color=auto
+git checkout main
+clear
+ls --color=auto
+git checkout jsmith-2
+git status
+clear
+ls --color=auto
+ls --color=auto -alh
+psql -U postgres < periodic_table.sql
+clear
+git status
+cd periodic_table/
+git status
+git diff element.sh
+git status
+git checkout -b fix/fix-print-statements
+git status
+git add .
+git commit -m "fixed print statements"
+git checkout main
+git status
+git branch
+git merge feat/print-query
+git status
+git log
+git log
+git log --oneline
+git branch
+git merge fix/fix-print-statements
+./element.sh
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh 1
+./element.sh F
+./element.sh Fluorine
+./element.sh Ne
+psql --username=freecodecamp --dbname=periodic_table
+./element.sh Ne
+./element.sh 10
+./element.sh Neon
+./element.sh Ne
+./element.sh Ne
+./element.sh Ne
+./element.sh Ne
+clear
+git status
+git checkout -b fix/fix-regex
+git status
+./element.sh Ne
+./element.sh Neon
+./element.sh 10
+clear
+git status
+git add .
+git commit -m "fix: fix-regex"
+git status
+git checkout main
+git log --oneline
+git merge fix/fix-regex
+git status
+git log --oneline
+./element.sh B
+./element.sh Be
+./element.sh Ca
+./element.sh Ca
+git status
+git checkout -b feat/handle-missing-elements
+git status
+./element.sh FOO
+git status
+git log --oneline
+git stash
+git checkout main
+git log --oneline
+git brach
+git branch
+git reset --hard a2b20e2
+git status
+git log --oneline
+git reset --hard 16f6a87
+git log --oneline
+git branch
+git merge fix/fix-print-statements
+git status
+git log --oneline
+git reset --hard 16f6a87
+git checkout fix/fix-print-statements
+git status
+git log
+git log --oneline
+git reset --soft a2b20e2
+git status
+git log
+git log --oneline
+git reset --soft 16f6a87
+git status
+git add .
+git commit -m "fix: fixed print statements"
+git status
+git log --oneline
+git checkout main
+git status
+git merge fix/fix-print-statements
+git status
+git log
+git branch
+git log --oneline
+git checkout fix/fix-regex
+git status
+git log
+git log --oneline
+git reset --soft 16f6a87
+git status
+git rebase main
+git add .
+git commit -m "fix: fix-regex"
+git rebase main
+git rebase --abort
+git rebase -i main
+git status
+git status
+git rebase --continue
+git status
+git add element.sh
+git status
+git log --oneline
+git commit -m "fix: fix regex"
+git status
+git rebase --continue
+git status
+git log --oneline
+git checkout main
+git status
+git status
+git log --oneline
+git log -h
+git branch
+git merge fix/fix-regex
+git status
+git log --oneline
+git branch
+git checkout feat/handle-missing-elements
+git log --oneline
+git reset --soft
+git status
+git log --oneline
+git stash pop
+git add .
+git status
+git commit -m "feat: handle missing elements"
+git checkout main
+git merge feat/handle-missing-elements
+git status
+git add element.sh
+git status
+git log --oneline
+git commit -m "feat: handle missing elements"
+git status
+git log --oneline
+git rebase -i
+git rebase -i main
+git log --oneline
+git rebase -i a2b20e2~
+git rebase --continue
+git status
+git add element.sh
+git status
+git commit -m "fix: amend"
+git status
+git rebase --continue
+git rebase --continue
+git add element.sh
+git status
+git commit -m "fix: amend"
+git status
+git rebase --continue
+git status
+git log --oneline
+./element.sh
+./element.sh H
+git status
+git checkout -b fix/join-type-table
+git add .
+git commit -m "fix: join type table"
+git status
+git log --oneline
+git checkout main
+git merge fix/join-type-table
+git status
